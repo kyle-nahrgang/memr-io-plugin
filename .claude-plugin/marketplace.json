@@ -1,0 +1,23 @@
+{
+  "name": "memr-io",
+  "owner": {
+    "name": "NahrDev LLC",
+    "url": "https://memr.io"
+  },
+  "metadata": {
+    "description": "The memr.io plugin: a memory you own, shared by every assistant you use."
+  },
+  "plugins": [
+    {
+      "name": "memr-io",
+      "source": "./plugins/memr-io",
+      "description": "Connects Claude to memr.io (your to-dos, notes, projects and life timeline) and adds skills for everyday use, setup, the timeline and reviews.",
+      "version": "0.2.0",
+      "author": { "name": "NahrDev LLC", "url": "https://memr.io" },
+      "homepage": "https://memr.io/docs",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["memory", "todos", "notes", "timeline", "mcp"]
+    }
+  ]
+}

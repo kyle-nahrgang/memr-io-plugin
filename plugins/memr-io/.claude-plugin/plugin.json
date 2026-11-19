@@ -1,0 +1,10 @@
+{
+  "name": "memr-io",
+  "version": "0.2.0",
+  "description": "Work with memr.io (said \"mem'ry'oh\"): your to-dos, notes, projects and life timeline, shared with your AI assistant.",
+  "author": { "name": "NahrDev LLC", "url": "https://memr.io" },
+  "homepage": "https://memr.io/docs",
+  "repository": "https://github.com/kyle-nahrgang/memr-io-plugin",
+  "license": "MIT",
+  "keywords": ["memr.io", "memory", "todos", "notes", "timeline"]
+}
