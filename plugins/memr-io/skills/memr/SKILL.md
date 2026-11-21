@@ -26,6 +26,9 @@ skill.
 | "add a to-do: X" | `search` for X (kind=todo, a couple of phrasings) → if it exists, say so or `update` it; if close, ask; else `add` kind=todo |
 | "what's on my list?" | `search` kind=todo (open by default); group by project if there are many |
 | "what can I start?" / "what's blocked?" | `search` kind=todo `ready=true` / `blocked=true` |
+| "what's next?" / "what should I do?" | `whats_next`: overdue, due soon, ready now, events coming up; then go through `needs_cleanup` (expired tasks) and ask what to do with each |
+| "help me plan X" (a party, trip, move) | `plan_event`, and follow its script |
+| "add a task to the X event" | `search` for the event, then `add` kind=todo with `parent_id` = the event (ask which day if the event spans days) |
 | "quick wins" | `search` kind=todo `tag=low-hanging-fruit` |
 | "done with X" | find it, then `update` `changes.status=done` |
 | "X has to wait for Y" | `update` X with `changes.blocked_by=[Y's id]` |

@@ -12,6 +12,10 @@ memr.io (said "mem'ry'oh") holds this person's to-dos, notes, memory notes and a
 - **Finishing a to-do means setting its status.** When work is finished, or the person says it is, `update` it with
   `status` `done`, then check that the status took. Writing "Done" into the detail leaves it open on their list,
   and they end up asking again.
+- **Tasks on an event, and expired ones.** A to-do can sit inside an event (`parent_id` = the event) and is due when the
+  event is; for an event that spans days, ask which day. Once the event has passed, a task still open reads as
+  `expired`. Never delete or close those on your own: call `whats_next`, show them by event, and ask what to do
+  with each (done, move the date, archive, delete). Use `plan_event` when they want help planning an event.
 - **Tag quick wins.** A to-do that needs little effort or thought gets the tag `low-hanging-fruit`, so it is easy
   to find a short list of things to knock out.
 - **Edit, don't rewrite.** Append to running notes; change only the fields that changed. Every write has a change
