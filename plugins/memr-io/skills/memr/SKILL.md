@@ -46,6 +46,6 @@ skill.
   and a write reports `unresolved_links` that match nothing yet.
 - **Finish to-dos with `status` `done`**, not by writing "Done" in the detail.
 - **Search matches words, not meaning.** Try the words the entry would use, and a second phrasing.
-- **Groups:** tools work in the person's private space unless you pass a `group` id from `whoami`.
+- **Namespaces:** tools work in the person's private space unless you pass a `namespace` id from `whoami`.
 - **Respect the plan.** If a write is refused for a plan rule, say so plainly and carry on with what is allowed.
 - **Report briefly.** One line on what was saved or changed.
