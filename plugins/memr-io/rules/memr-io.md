@@ -16,8 +16,7 @@ memr.io (said "mem'ry'oh") holds this person's to-dos, notes, memory notes and a
   event is; for an event that spans days, ask which day. Once the event has passed, a task still open reads as
   `expired`. Never delete or close those on your own: call `whats_next`, show them by event, and ask what to do
   with each (done, move the date, archive, delete). Use `plan_event` when they want help planning an event.
-- **Tag quick wins.** A to-do that needs little effort or thought gets the tag `low-hanging-fruit`, so it is easy
-  to find a short list of things to knock out.
+- **Capture as you go, so the next assistant can pick up.** Without being asked, keep a note per project or topic and update it (append) as decisions, findings, open questions and the current state come up. Add a to-do for each next step the person commits to, and mark it done when finished. Before a chat ends or when the person says they are switching assistants or stopping, make sure the note says where things stand and what comes next, so a fresh assistant can continue from memr.io alone.
 - **Edit, don't rewrite.** Append to running notes; change only the fields that changed. Every write has a change
   number, so fix a mistake with `revert` instead of piling on corrections.
 - **Be honest about certainty.** Give events a source and keep dates as precise as the evidence, no more.

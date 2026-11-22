@@ -25,8 +25,7 @@ Work through these, briefly, and ask before changing anything the person didn't 
 3. **Ready now:** `search` kind=todo `ready=true`. Suggest the top three.
 4. **Blocked:** `search` kind=todo `blocked=true`, with what blocks each one. Ask whether any blocker is actually
    done.
-5. **Quick wins:** `search` kind=todo `tag=low-hanging-fruit`.
-6. **Stale:** open to-dos untouched for a long time. Ask: still wanted, done, or drop?
+5. **Stale:** open to-dos untouched for a long time. Ask: still wanted, done, or drop?
 
 ## Tidying
 

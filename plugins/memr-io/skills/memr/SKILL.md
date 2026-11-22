@@ -29,7 +29,6 @@ skill.
 | "what's next?" / "what should I do?" | `whats_next`: overdue, due soon, ready now, events coming up; then go through `needs_cleanup` (expired tasks) and ask what to do with each |
 | "help me plan X" (a party, trip, move) | `plan_event`, and follow its script |
 | "add a task to the X event" | `search` for the event, then `add` kind=todo with `parent_id` = the event (ask which day if the event spans days) |
-| "quick wins" | `search` kind=todo `tag=low-hanging-fruit` |
 | "done with X" | find it, then `update` `changes.status=done` |
 | "X has to wait for Y" | `update` X with `changes.blocked_by=[Y's id]` |
 | "remember that …" | `search` kind=memory first; `add` kind=memory, one fact per note |
@@ -41,7 +40,7 @@ skill.
 ## Habits
 
 - **Search before you create; ask when it's close.** Duplicates are the most common mistake.
-- **Tag quick wins** `low-hanging-fruit` when a to-do is small and needs little thought.
+- **Capture as you go.** Keep a note per project or topic and append to it as decisions, findings and the current state come up; add a to-do for each committed next step and mark it done when finished. Before a chat ends or the person switches assistants, make the note say where things stand and what is next.
 - **Link entries** by writing `[[Title]]` (or `[[Title|shown text]]`) in a summary or detail; `get` shows backlinks,
   and a write reports `unresolved_links` that match nothing yet.
 - **Finish to-dos with `status` `done`**, not by writing "Done" in the detail.
