@@ -12,7 +12,7 @@
       "name": "memr-io",
       "source": "./plugins/memr-io",
       "description": "Connects Claude to memr.io (your to-dos, notes, projects and life timeline) and adds skills for everyday use, setup, the timeline and reviews.",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "author": { "name": "NahrDev LLC", "url": "https://memr.io" },
       "homepage": "https://memr.io/docs",
       "license": "MIT",

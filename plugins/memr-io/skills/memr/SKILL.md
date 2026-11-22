@@ -40,7 +40,7 @@ skill.
 ## Habits
 
 - **Search before you create; ask when it's close.** Duplicates are the most common mistake.
-- **Capture as you go.** Keep a note per project or topic and append to it as decisions, findings and the current state come up; add a to-do for each committed next step and mark it done when finished. Before a chat ends or the person switches assistants, make the note say where things stand and what is next.
+- **Capture as you go.** Keep a note per project or topic and update it as you work, not at the end: append each decision, finding and change of state as it happens, since a chat can stop at any time. Add a to-do for each committed next step and mark it done as soon as it is finished.
 - **Link entries** by writing `[[Title]]` (or `[[Title|shown text]]`) in a summary or detail; `get` shows backlinks,
   and a write reports `unresolved_links` that match nothing yet.
 - **Finish to-dos with `status` `done`**, not by writing "Done" in the detail.
